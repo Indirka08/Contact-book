@@ -1,0 +1,107 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: rgb(55, 55, 53);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px 100px;
+  background: rgb(55, 137, 79);
+}
+
+.head-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+}
+
+.head-title {
+  font-size: 35px;
+}
+
+.head-inp-menu {
+  display: flex;
+  column-gap: 150px;
+}
+
+.head-inp-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.head-but {
+  width: 100px;
+  height: 40px;
+  background: rgb(215, 17, 23);
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.head-inp {
+  width: 140px;
+  height: 30px;
+  background: rgb(96, 179, 87);
+  border: 0;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.section-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.section-name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-text {
+  padding: 5px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid white;
+}
+
+.Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.E-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-name {
+  list-style: none;
+}
+
+.ul-E-mail {
+  list-style: none;
+}
+
+.ul-Contact {
+  list-style: none;
+}
